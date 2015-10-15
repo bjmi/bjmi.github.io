@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
-<repository name='jdt extensions p2 repo' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+<repository name='jdt extensions / derived resources p2 repo' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1441982833211'/>
+    <property name='p2.timestamp' value='1444923001491'/>
     <property name='publishPackFilesAsSiblings' value='true'/>
   </properties>
   <mappings size='5'>
@@ -12,22 +12,41 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature) (format=packed))' output='${repoUrl}/features/${id}_${version}.jar.pack.gz'/>
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
-  <artifacts size='2'>
-    <artifact classifier='osgi.bundle' id='bjmi.jdt.extensions' version='1.1.0.v20150911-144710'>
+  <artifacts size='4'>
+    <artifact classifier='osgi.bundle' id='bjmi.jdt.extensions' version='1.1.0.v20150911-143231'>
       <properties size='5'>
-        <property name='artifact.size' value='8241'/>
-        <property name='download.size' value='8241'/>
+        <property name='artifact.size' value='7918'/>
+        <property name='download.size' value='7918'/>
         <property name='maven-groupId' value='bjmi.jdt.extensions'/>
         <property name='maven-artifactId' value='bjmi.jdt.extensions'/>
         <property name='maven-version' value='1.1.0-SNAPSHOT'/>
       </properties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='bjmi.jdt.extensions.feature' version='1.1.0.v20150911-144710'>
+    <artifact classifier='org.eclipse.update.feature' id='bjmi.jdt.extensions.feature' version='1.1.0.v20150911-143231'>
       <properties size='6'>
-        <property name='artifact.size' value='8859'/>
-        <property name='download.size' value='8859'/>
+        <property name='artifact.size' value='8860'/>
+        <property name='download.size' value='8860'/>
         <property name='maven-groupId' value='bjmi.jdt.extensions'/>
         <property name='maven-artifactId' value='bjmi.jdt.extensions.feature'/>
+        <property name='maven-version' value='1.1.0-SNAPSHOT'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='bjmi.derivedresources' version='1.4.3.v20151015-152924'>
+      <properties size='5'>
+        <property name='artifact.size' value='38972'/>
+        <property name='download.size' value='38972'/>
+        <property name='maven-groupId' value='bjmi.jdt.extensions'/>
+        <property name='maven-artifactId' value='bjmi.derivedresources'/>
+        <property name='maven-version' value='1.4.3-SNAPSHOT'/>
+      </properties>
+    </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='bjmi.derivedresources.feature' version='1.1.0.v20151015-152924'>
+      <properties size='6'>
+        <property name='artifact.size' value='8872'/>
+        <property name='download.size' value='8872'/>
+        <property name='maven-groupId' value='bjmi.jdt.extensions'/>
+        <property name='maven-artifactId' value='bjmi.derivedresources.feature'/>
         <property name='maven-version' value='1.1.0-SNAPSHOT'/>
         <property name='download.contentType' value='application/zip'/>
       </properties>
