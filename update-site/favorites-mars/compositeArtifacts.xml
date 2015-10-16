@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?compositeMetadataRepository version='1.0.0'?>
-<repository name='developers best update sites for eclipse mars'
+<repository name='developers bests update sites for eclipse mars'
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1'/>
+    <property name='p2.timestamp' value='2'/>
   </properties>
-  <children size='21'>
+  <children size='22'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/eclipse/updates/4.5/' />
@@ -15,10 +15,11 @@
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
     <child location='http://download.eclipse.org/mylyn/incubator/3.16/' />
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
-
+    <!-- m2e -->
     <child location='http://download.eclipse.org/technology/m2e/releases/' />
     <child location='https://repository.takari.io/content/sites/m2e.extras/m2eclipse-tycho/0.9.0/N/LATEST/' />
-
+    <!-- Spring -->
+    <child location='http://dist.springsource.com/release/TOOLS/update/e4.5/' />
     <!-- JD-Eclipse -->
     <child location='https://mchr3k-eclipse.appspot.com/' />
     <!-- Grep Console -->
@@ -32,7 +33,7 @@
     <!-- SonarQube -->
     <child location='https://downloads.sonarsource.com/eclipse/eclipse/' />
     <child location='http://update.eclemma.org/' />
-
+    <!-- VCS -->
     <child location='http://download.eclipse.org/egit/updates/' />
     <child location='http://download.eclipse.org/technology/subversive/3.0/update-site/' />
     <child location='https://community.polarion.com/projects/subversive/download/eclipse/5.0/update-site/' />
