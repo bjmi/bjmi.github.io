@@ -4,9 +4,9 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='3'/>
+    <property name='p2.timestamp' value='4'/>
   </properties>
-  <children size='23'>
+  <children size='24'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/releases/mars/' />
@@ -42,5 +42,7 @@
 
     <child location='https://update.zeroturnaround.com/update-site/' />
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
+    <!-- zip editor -->
+    <child location='http://www.nodeclipse.org/updates/' />
   </children>
 </repository>
