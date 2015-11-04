@@ -38,7 +38,7 @@
     <!-- VCS -->
     <child location='http://download.eclipse.org/egit/updates/' />
     <child location='http://download.eclipse.org/technology/subversive/3.0/update-site/' />
-    <child location='https://community.polarion.com/projects/subversive/download/eclipse/5.0/update-site/' />
+    <child location='http://community.polarion.com/projects/subversive/download/eclipse/5.0/update-site/' />
 
     <child location='https://update.zeroturnaround.com/update-site/' />
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
