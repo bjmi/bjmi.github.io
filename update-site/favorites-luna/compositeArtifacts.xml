@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='developers bests update sites for eclipse luna'
+            type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
+            version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1'/>
+  </properties>
+  <children size='24'>
+    <child location='https://bjmi.github.io/update-site/' />
+
+    <child location='http://download.eclipse.org/releases/luna/' />
+    <child location='http://download.eclipse.org/eclipse/updates/4.4/' />
+    <child location='http://download.eclipse.org/technology/epp/packages/luna/' />
+    <child location='http://download.eclipse.org/recommenders/updates/stable/' />
+    <!-- mylyn et al. -->
+    <child location='http://download.eclipse.org/mylyn/releases/latest/' />
+    <child location='http://download.eclipse.org/mylyn/incubator/3.17/' />
+    <child location='https://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/' />
+    <!-- m2e -->
+    <child location='http://download.eclipse.org/technology/m2e/releases/' />
+    <child location='https://repository.takari.io/content/sites/m2e.extras/m2eclipse-tycho/0.9.0/N/LATEST/' />
+    <!-- Spring -->
+    <child location='http://dist.springsource.com/release/TOOLS/update/e4.4/' />
+    <!-- JD-Eclipse -->
+    <child location='https://mchr3k-eclipse.appspot.com/' />
+    <!-- Grep Console -->
+    <child location='http://eclipse.schedenig.name/' />
+
+    <!-- AnyEditTools, Bytecode Outline -->
+    <child location='http://andrei.gmxhome.de/eclipse/' />
+    <!-- TestNG -->
+    <child location='http://beust.com/eclipse/' />
+    <child location='http://moreunit.sourceforge.net/update-site/' />
+    <!-- SonarQube -->
+    <child location='https://downloads.sonarsource.com/eclipse/eclipse/' />
+    <child location='http://update.eclemma.org/' />
+    <!-- VCS -->
+    <child location='http://download.eclipse.org/egit/updates/' />
+    <child location='http://download.eclipse.org/technology/subversive/3.0/update-site/' />
+    <child location='https://community.polarion.com/projects/subversive/download/eclipse/5.0/update-site/' />
+
+    <child location='https://update.zeroturnaround.com/update-site/' />
+    <child location='https://update.zeroturnaround.com/free-tools/site/' />
+    <!-- zip editor -->
+    <child location='http://www.nodeclipse.org/updates/' />
+  </children>
+</repository>
