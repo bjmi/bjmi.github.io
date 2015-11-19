@@ -4,9 +4,9 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='1'/>
+    <property name='p2.timestamp' value='2'/>
   </properties>
-  <children size='24'>
+  <children size='25'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/releases/luna/' />
@@ -44,5 +44,7 @@
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
     <!-- zip editor -->
     <child location='http://www.nodeclipse.org/updates/' />
+
+    <child location='https://netceteragroup.github.io/quickrex/updatesite/' />
   </children>
 </repository>
