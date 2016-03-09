@@ -4,9 +4,9 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='2'/>
+    <property name='p2.timestamp' value='3' />
   </properties>
-  <children size='25'>
+  <children size='27'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/releases/luna/' />
@@ -46,5 +46,8 @@
     <child location='http://www.nodeclipse.org/updates/' />
 
     <child location='https://netceteragroup.github.io/quickrex/updatesite/' />
+    <!-- JRebel -->
+    <child location='https://update.zeroturnaround.com/update-site/' />
+    <child location='https://update.zeroturnaround.com/free-tools/site/' />
   </children>
 </repository>
