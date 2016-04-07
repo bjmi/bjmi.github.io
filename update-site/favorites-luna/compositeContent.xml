@@ -4,14 +4,13 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='3' />
+    <property name='p2.timestamp' value='4' />
   </properties>
-  <children size='27'>
+  <children size='26'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/releases/luna/' />
     <child location='http://download.eclipse.org/eclipse/updates/4.4/' />
-    <child location='http://download.eclipse.org/technology/epp/packages/luna/' />
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <!-- mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />

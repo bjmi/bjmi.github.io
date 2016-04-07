@@ -4,14 +4,13 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='6' />
+    <property name='p2.timestamp' value='7' />
   </properties>
-  <children size='27'>
+  <children size='26'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/releases/mars/' />
     <child location='http://download.eclipse.org/eclipse/updates/4.5/' />
-    <child location='http://download.eclipse.org/technology/epp/packages/mars/' />
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <!-- mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
