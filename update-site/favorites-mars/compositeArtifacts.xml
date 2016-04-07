@@ -6,7 +6,7 @@
   <properties size='1'>
     <property name='p2.timestamp' value='7' />
   </properties>
-  <children size='26'>
+  <children size='27'>
     <child location='https://bjmi.github.io/update-site/' />
 
     <child location='http://download.eclipse.org/releases/mars/' />
@@ -48,5 +48,7 @@
     <!-- JRebel -->
     <child location='https://update.zeroturnaround.com/update-site/' />
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
+
+    <child location='https://raw.githubusercontent.com/ystsoi/eclipse-fileencodinginfo/master/update/' />
   </children>
 </repository>
