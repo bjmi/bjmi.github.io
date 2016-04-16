@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='7' />
+    <property name='p2.timestamp' value='8' />
   </properties>
   <children size='27'>
     <child location='https://bjmi.github.io/update-site/' />
@@ -14,7 +14,7 @@
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <!-- mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
-    <child location='http://download.eclipse.org/mylyn/incubator/3.18/' />
+    <child location='http://download.eclipse.org/mylyn/incubator/3.19/' />
     <child location='https://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/' />
     <!-- m2e -->
     <child location='http://download.eclipse.org/technology/m2e/releases/' />
