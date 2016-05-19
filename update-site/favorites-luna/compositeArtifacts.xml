@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='7' />
+    <property name='p2.timestamp' value='8' />
   </properties>
   <children size='29'>
     <child location='https://bjmi.github.io/update-site/' />
@@ -12,7 +12,7 @@
     <child location='http://download.eclipse.org/releases/luna/' />
     <child location='http://download.eclipse.org/eclipse/updates/4.4/' />
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
-    <child location='http://download.eclipse.org/oomph/updates/latest/' />
+    <child location='http://download.eclipse.org/oomph/updates/' />
     <child location='http://download.eclipse.org/technology/dltk/updates-dev/latest/' />
     <!-- mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
