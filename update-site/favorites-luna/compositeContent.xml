@@ -8,13 +8,13 @@
   </properties>
   <children size='29'>
     <child location='https://bjmi.github.io/update-site/' />
-
+    <!-- Eclipse et al. -->
     <child location='http://download.eclipse.org/releases/luna/' />
     <child location='http://download.eclipse.org/eclipse/updates/4.4/' />
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <child location='http://download.eclipse.org/oomph/updates/' />
     <child location='http://download.eclipse.org/technology/dltk/updates-dev/latest/' />
-    <!-- mylyn et al. -->
+    <!-- Mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
     <child location='http://download.eclipse.org/mylyn/incubator/3.19/' />
     <child location='https://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/' />
@@ -27,7 +27,6 @@
     <child location='https://mchr3k-eclipse.appspot.com/' />
     <!-- Grep Console -->
     <child location='http://eclipse.schedenig.name/' />
-
     <!-- AnyEditTools, Bytecode Outline -->
     <child location='http://andrei.gmxhome.de/eclipse/' />
     <!-- TestNG -->
@@ -43,14 +42,15 @@
 
     <child location='https://update.zeroturnaround.com/update-site/' />
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
-    <!-- zip editor -->
+    <!-- Zip Editor -->
     <child location='http://www.nodeclipse.org/updates/' />
 
     <child location='https://netceteragroup.github.io/quickrex/updatesite/' />
-    <!-- JRebel -->
+    <!-- JRebel et al.-->
     <child location='https://update.zeroturnaround.com/update-site/' />
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
 
     <child location='https://raw.githubusercontent.com/ystsoi/eclipse-fileencodinginfo/master/update/' />
+    <child location='https://dl.bintray.com/ajermakovics/InstaSearch/' />
   </children>
 </repository>
