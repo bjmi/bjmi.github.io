@@ -6,7 +6,7 @@
   <properties size='1'>
     <property name='p2.timestamp' value='1' />
   </properties>
-  <children size='24'>
+  <children size='25'>
     <child location='https://bjmi.github.io/update-site/' />
     <!-- Eclipse et al. -->
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
@@ -46,5 +46,7 @@
     <child location='https://raw.githubusercontent.com/cypher256/eclipse-encoding-plugin/master/eclipse.encoding.plugin.update/' />
     <child location='https://dl.bintray.com/ajermakovics/InstaSearch/' />
     <child location='http://decompiler.cpupk.com/update/' />
+    <!-- MailSnag -->
+    <child location='https://foosbar.github.io/update/' />
   </children>
 </repository>
