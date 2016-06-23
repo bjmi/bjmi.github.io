@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='8' />
+    <property name='p2.timestamp' value='10' />
   </properties>
   <children size='29'>
     <child location='https://bjmi.github.io/update-site/' />
@@ -50,7 +50,8 @@
     <child location='https://update.zeroturnaround.com/update-site/' />
     <child location='https://update.zeroturnaround.com/free-tools/site/' />
 
-    <child location='https://raw.githubusercontent.com/ystsoi/eclipse-fileencodinginfo/master/update/' />
+    <child location='https://raw.githubusercontent.com/cypher256/eclipse-encoding-plugin/master/eclipse.encoding.plugin.update/' />
     <child location='https://dl.bintray.com/ajermakovics/InstaSearch/' />
+    <child location='http://decompiler.cpupk.com/update/' />
   </children>
 </repository>
