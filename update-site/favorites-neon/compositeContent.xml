@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='developers bests update sites for eclipse neon'
+            type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
+            version='1.0.0'>
+  <properties size='1'>
+    <property name='p2.timestamp' value='1' />
+  </properties>
+  <children size='5'>
+    <child location='https://bjmi.github.io/update-site/' />
+    <child location='https://bjmi.github.io/update-site/favorites-general/' />
+    <!-- Eclipse et al. -->
+    <child location='http://download.eclipse.org/releases/neon/' />
+    <child location='http://download.eclipse.org/eclipse/updates/4.6/' />
+    <!-- Spring -->
+    <child location='http://dist.springsource.com/release/TOOLS/update/e4.6/' />
+  </children>
+</repository>
