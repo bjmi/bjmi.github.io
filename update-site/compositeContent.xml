@@ -4,11 +4,10 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='3'/>
+    <property name='p2.timestamp' value='4'/>
   </properties>
-  <children size='3'>
+  <children size='2'>
     <child location='bjmi.jdt.extensions'/>
     <child location='bjmi.m2e.sourcelookup'/>
-    <child location='jd-eclipse'/>
   </children>
 </repository>
