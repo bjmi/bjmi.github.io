@@ -121,17 +121,17 @@
         %feature.copyright.text
       </copyright>
     </unit>
-    <unit id='jdt.extensions' version='1.0.0.47A-cV2wvE_kE7AS9IAS3AOCIOW'>
+    <unit id='jdt.extensions' version='1.0.0.47C-cV2wvE_kE7AU7UCM39OAUCM'>
       <properties size='2'>
         <property name='org.eclipse.equinox.p2.name' value='JDT Extension by bjmi'/>
         <property name='org.eclipse.equinox.p2.type.category' value='true'/>
       </properties>
       <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='jdt.extensions' version='1.0.0.47A-cV2wvE_kE7AS9IAS3AOCIOW'/>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='jdt.extensions' version='1.0.0.47C-cV2wvE_kE7AU7UCM39OAUCM'/>
       </provides>
       <requires size='2'>
         <required namespace='org.eclipse.equinox.p2.iu' name='bjmi.jdt.extensions.feature.feature.group' range='[1.1.0.v20151016-063456,1.1.0.v20151016-063456]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='bjmi.derivedresources.feature.feature.group' range='[1.5.0.v20160615-230247,1.5.0.v20160615-230247]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='bjmi.derivedresources.feature.feature.group' range='[1.5.0.v20160617-051801,1.5.0.v20160617-051801]'/>
       </requires>
       <touchpoint id='null' version='0.0.0'/>
     </unit>
