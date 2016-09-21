@@ -4,9 +4,9 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='2' />
+    <property name='p2.timestamp' value='3' />
   </properties>
-  <children size='25'>
+  <children size='26'>
     <!-- Eclipse et al. -->
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <child location='http://download.eclipse.org/oomph/updates/' />
@@ -17,6 +17,7 @@
     <child location='https://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/' />
     <!-- m2e -->
     <child location='http://download.eclipse.org/technology/m2e/releases/' />
+    <child location='http://download.eclipse.org/m2e-wtp/releases/' />
     <child location='https://repository.takari.io/content/sites/m2e.extras/m2eclipse-tycho/0.9.0/N/LATEST/' />
     <!-- Grep Console -->
     <child location='http://eclipse.schedenig.name/' />
