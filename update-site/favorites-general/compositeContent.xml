@@ -13,7 +13,7 @@
     <child location='http://download.eclipse.org/technology/dltk/updates-dev/latest/' />
     <!-- Mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
-    <child location='http://download.eclipse.org/mylyn/incubator/3.20/' />
+    <child location='http://download.eclipse.org/mylyn/incubator/3.21/' />
     <child location='https://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/' />
     <!-- m2e -->
     <child location='http://download.eclipse.org/technology/m2e/releases/' />
