@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='5' />
+    <property name='p2.timestamp' value='6' />
   </properties>
   <children size='26'>
     <child location='https://bjmi.github.io/update-site/' />
@@ -30,7 +30,7 @@
     <child location='http://beust.com/eclipse/' />
     <child location='http://moreunit.sourceforge.net/update-site/' />
     <!-- SonarLint -->
-    <child location='https://sonarsource.bintray.com/SonarLint-for-Eclipse/releases/2.4.0/' />
+    <child location='https://sonarsource.bintray.com/SonarLint-for-Eclipse/releases/2.5.0/' />
     <child location='http://update.eclemma.org/' />
     <!-- VCS -->
     <child location='http://download.eclipse.org/egit/updates/' />
