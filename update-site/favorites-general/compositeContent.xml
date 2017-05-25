@@ -4,9 +4,9 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='8' />
+    <property name='p2.timestamp' value='9' />
   </properties>
-  <children size='26'>
+  <children size='25'>
     <!-- Eclipse et al. -->
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <child location='http://download.eclipse.org/oomph/updates/release/' />
@@ -21,7 +21,7 @@
     <child location='https://repository.takari.io/content/sites/m2e.extras/m2eclipse-tycho/0.9.0/N/LATEST/' />
     <!-- Grep Console -->
     <child location='http://eclipse.schedenig.name/' />
-    <!-- AnyEditTools, Bytecode Outline -->
+    <!-- AnyEditTools, Bytecode Outline, Zip Editor -->
     <child location='http://andrei.gmxhome.de/eclipse/' />
     <!-- TestNG -->
     <child location='http://beust.com/eclipse/' />
@@ -33,8 +33,6 @@
     <child location='http://download.eclipse.org/egit/updates/' />
     <child location='http://download.eclipse.org/technology/subversive/4.0/update-site/' />
     <child location='http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/' />
-    <!-- Zip Editor -->
-    <child location='http://www.nodeclipse.org/updates/' />
 
     <child location='https://netceteragroup.github.io/quickrex/updatesite/' />
     <!-- JRebel et al. -->
