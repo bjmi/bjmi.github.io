@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='9' />
+    <property name='p2.timestamp' value='10' />
   </properties>
   <children size='25'>
     <!-- Eclipse et al. -->
@@ -41,7 +41,7 @@
 
     <child location='https://cypher256.github.io/eclipse-encoding-plugin/' />
     <child location='https://dl.bintray.com/ajermakovics/InstaSearch/' />
-    <child location='http://decompiler.cpupk.com/update/' />
+    <child location='http://www.cpupk.com/decompiler/update/' />
     <!-- MailSnag -->
     <child location='https://foosbar.github.io/update/' />
   </children>
