@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='10' />
+    <property name='p2.timestamp' value='11' />
   </properties>
   <children size='25'>
     <!-- Eclipse et al. -->
@@ -13,7 +13,7 @@
     <child location='http://download.eclipse.org/technology/dltk/updates-dev/latest/' />
     <!-- Mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
-    <child location='http://download.eclipse.org/mylyn/incubator/3.22/' />
+    <child location='http://download.eclipse.org/mylyn/incubator/3.23/' />
     <child location='https://update.atlassian.com/atlassian-eclipse-plugin/rest/e3.7/' />
     <!-- m2e -->
     <child location='http://download.eclipse.org/technology/m2e/releases/' />
