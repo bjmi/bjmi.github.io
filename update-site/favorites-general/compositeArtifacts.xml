@@ -4,14 +4,15 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
   <properties size='1'>
-    <property name='p2.timestamp' value='11' />
+    <property name='p2.timestamp' value='12' />
   </properties>
-  <children size='25'>
+  <children size='26'>
     <child location='https://bjmi.github.io/update-site/' />
     <!-- Eclipse et al. -->
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <child location='http://download.eclipse.org/oomph/updates/release/' />
     <child location='http://download.eclipse.org/technology/dltk/updates-dev/latest/' />
+    <child location='http://download.eclipse.org/tools/gef/updates/releases/' />
     <!-- Mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
     <child location='http://download.eclipse.org/mylyn/incubator/3.23/' />
