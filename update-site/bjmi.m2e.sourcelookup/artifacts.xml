@@ -2,7 +2,7 @@
 <?artifactRepository version='1.1.0'?>
 <repository name='m2e sourcelookup p2 repo' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1435216580986'/>
+    <property name='p2.timestamp' value='1500266964036'/>
     <property name='publishPackFilesAsSiblings' value='true'/>
   </properties>
   <mappings size='5'>
@@ -13,23 +13,25 @@
     <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
   </mappings>
   <artifacts size='2'>
-    <artifact classifier='osgi.bundle' id='bjmi.m2e.sourcelookup' version='1.1.5.v20150625-070410'>
-      <properties size='5'>
-        <property name='artifact.size' value='15833'/>
-        <property name='download.size' value='15833'/>
-        <property name='maven-groupId' value='bjmi.m2e.sourcelookup'/>
-        <property name='maven-artifactId' value='bjmi.m2e.sourcelookup'/>
-        <property name='maven-version' value='1.1.5-SNAPSHOT'/>
-      </properties>
-    </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='bjmi.m2e.sourcelookup.feature' version='1.1.5.v20150625-071619'>
-      <properties size='6'>
-        <property name='artifact.size' value='4105'/>
-        <property name='download.size' value='4105'/>
+    <artifact classifier='org.eclipse.update.feature' id='bjmi.m2e.sourcelookup.feature' version='1.1.6.v20170717-044847'>
+      <properties size='7'>
+        <property name='artifact.size' value='1517'/>
+        <property name='download.size' value='1517'/>
         <property name='maven-groupId' value='bjmi.m2e.sourcelookup'/>
         <property name='maven-artifactId' value='bjmi.m2e.sourcelookup.feature'/>
-        <property name='maven-version' value='1.1.5-SNAPSHOT'/>
+        <property name='maven-version' value='1.1.6-SNAPSHOT'/>
         <property name='download.contentType' value='application/zip'/>
+        <property name='download.md5' value='ede997d0f1f94ef7e48060671c29e8e0'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='bjmi.m2e.sourcelookup' version='1.1.6.v20170717-044847'>
+      <properties size='6'>
+        <property name='artifact.size' value='15759'/>
+        <property name='download.size' value='15759'/>
+        <property name='maven-groupId' value='bjmi.m2e.sourcelookup'/>
+        <property name='maven-artifactId' value='bjmi.m2e.sourcelookup'/>
+        <property name='maven-version' value='1.1.6-SNAPSHOT'/>
+        <property name='download.md5' value='2f937aefa1040b658c9e971ae7ff3310'/>
       </properties>
     </artifact>
   </artifacts>
