@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='developers bests update sites for eclipse photon'
+            type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
+            version='1.0.0'>
+  <properties>
+    <property name='p2.timestamp' value='1' />
+  </properties>
+  <children>
+    <child location='https://bjmi.github.io/update-site/' />
+    <child location='https://bjmi.github.io/update-site/favorites-general/' />
+
+    <!-- Eclipse et al. -->
+    <child location='http://download.eclipse.org/releases/photon/' />
+    <child location='http://download.eclipse.org/eclipse/updates/4.8/' />
+    <child location='http://download.eclipse.org/tools/cdt/releases/9.5/' />
+    <child location='http://download.eclipse.org/webtools/repository/photon/' />
+
+    <!-- Spring -->
+    <child location='http://dist.springsource.com/release/TOOLS/update/e4.8/' />
+    <child location='http://dist.springsource.org/snapshot/GRECLIPSE/e4.8/' />
+  </children>
+</repository>
