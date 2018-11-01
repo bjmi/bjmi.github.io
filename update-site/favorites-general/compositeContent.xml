@@ -3,10 +3,10 @@
 <repository name='developers bests update sites for eclipse'
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
-  <properties size='1'>
-    <property name='p2.timestamp' value='15' />
+  <properties>
+    <property name='p2.timestamp' value='16' />
   </properties>
-  <children size='26'>
+  <children>
     <!-- Eclipse et al. -->
     <child location='http://download.eclipse.org/recommenders/updates/stable/' />
     <child location='http://download.eclipse.org/oomph/updates/release/' />
