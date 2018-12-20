@@ -14,7 +14,7 @@
     <child location='http://download.eclipse.org/tools/gef/updates/releases/' />
     <!-- Mylyn et al. -->
     <child location='http://download.eclipse.org/mylyn/releases/latest/' />
-    <child location='http://download.eclipse.org/mylyn/incubator/3.23/' />
+    <child location='http://download.eclipse.org/mylyn/incubator/3.24/' />
     <!-- m2e -->
     <child location='http://download.eclipse.org/technology/m2e/releases/' />
     <child location='http://download.eclipse.org/m2e-wtp/releases/' />
