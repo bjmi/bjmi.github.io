@@ -34,7 +34,7 @@
         <child location='http://moreunit.sourceforge.net/update-site/' />
 
         <!-- Code analysis -->
-        <child location='http://eclipse.sonarlint.org/' />
+        <child location='https://eclipse-uc.sonarlint.org/' />
         <child location='http://update.eclemma.org/' />
 
         <!-- VCS -->
