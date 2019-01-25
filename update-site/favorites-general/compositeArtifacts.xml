@@ -30,7 +30,7 @@
         <child location='http://andrei.gmxhome.de/eclipse/' />
 
         <!-- Testing -->
-        <child location='http://beust.com/eclipse/' />
+        <child location='https://beust.com/eclipse/' />
         <child location='http://moreunit.sourceforge.net/update-site/' />
 
         <!-- Code analysis -->
