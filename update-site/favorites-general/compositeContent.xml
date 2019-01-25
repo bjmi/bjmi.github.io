@@ -3,47 +3,54 @@
 <repository name='developers bests update sites for eclipse'
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
-  <properties>
-    <property name='p2.timestamp' value='16' />
-  </properties>
-  <children>
-    <!-- Eclipse et al. -->
-    <child location='http://download.eclipse.org/recommenders/updates/stable/' />
-    <child location='http://download.eclipse.org/oomph/updates/release/' />
-    <child location='http://download.eclipse.org/technology/dltk/updates-dev/latest/' />
-    <child location='http://download.eclipse.org/tools/gef/updates/releases/' />
-    <!-- Mylyn et al. -->
-    <child location='http://download.eclipse.org/mylyn/releases/latest/' />
-    <child location='http://download.eclipse.org/mylyn/incubator/3.24/' />
-    <!-- m2e -->
-    <child location='http://download.eclipse.org/technology/m2e/releases/' />
-    <child location='http://download.eclipse.org/m2e-wtp/releases/' />
-    <child location='https://repository.takari.io/content/sites/m2e.extras/m2eclipse-buildhelper/0.15.0/N/0.15.0.201405280027/' />
-    <child location='https://repository.takari.io/content/sites/m2e.extras/m2eclipse-tycho/0.9.0/N/LATEST/' />
-    <!-- Grep Console -->
-    <child location='http://eclipse.schedenig.name/' />
-    <!-- AnyEditTools, Bytecode Outline, Zip Editor -->
-    <child location='http://andrei.gmxhome.de/eclipse/' />
-    <!-- TestNG -->
-    <child location='http://beust.com/eclipse/' />
-    <child location='http://moreunit.sourceforge.net/update-site/' />
-    <!-- SonarLint -->
-    <child location='http://eclipse.sonarlint.org/' />
-    <child location='http://update.eclemma.org/' />
-    <!-- VCS -->
-    <child location='http://download.eclipse.org/egit/updates/' />
-    <child location='http://download.eclipse.org/technology/subversive/4.0/update-site/' />
-    <child location='http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/' />
+    <properties>
+        <property name='p2.timestamp' value='17' />
+    </properties>
+    <children>
+        <!-- Eclipse et al. -->
+        <child location='https://download.eclipse.org/recommenders/updates/stable/' />
+        <child location='https://download.eclipse.org/oomph/updates/release/' />
+        <child location='https://download.eclipse.org/technology/dltk/updates-dev/latest/' />
+        <child location='https://download.eclipse.org/tools/gef/updates/releases/' />
 
-    <child location='https://netceteragroup.github.io/quickrex/updatesite/' />
-    <!-- JRebel et al. -->
-    <child location='https://update.zeroturnaround.com/update-site/' />
-    <child location='https://update.zeroturnaround.com/free-tools/site/' />
+        <!-- Mylyn et al. -->
+        <child location='https://download.eclipse.org/mylyn/releases/latest/' />
+        <child location='https://download.eclipse.org/mylyn/incubator/3.24/' />
 
-    <child location='https://cypher256.github.io/eclipse-encoding-plugin/' />
-    <child location='https://dl.bintray.com/ajermakovics/InstaSearch/' />
-    <child location='https://ecd-plugin.github.io/update/' />
-    <!-- MailSnag -->
-    <child location='https://foosbar.github.io/update/' />
-  </children>
+        <!-- M2Eclipse -->
+        <child location='https://download.eclipse.org/technology/m2e/releases/' />
+        <child location='https://download.eclipse.org/m2e-wtp/releases/' />
+        <child location='https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201405280027/' />
+        <child location='https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.9.0/N/LATEST/' />
+
+        <!-- Grep Console -->
+        <child location='http://eclipse.schedenig.name/' />
+
+        <!-- AnyEditTools, Bytecode Outline, Zip Editor -->
+        <child location='http://andrei.gmxhome.de/eclipse/' />
+
+        <!-- Testing -->
+        <child location='http://beust.com/eclipse/' />
+        <child location='http://moreunit.sourceforge.net/update-site/' />
+
+        <!-- Code analysis -->
+        <child location='http://eclipse.sonarlint.org/' />
+        <child location='http://update.eclemma.org/' />
+        <!-- VCS -->
+        <child location='https://download.eclipse.org/egit/updates/' />
+        <child location='https://download.eclipse.org/technology/subversive/4.0/update-site/' />
+        <child location='http://community.polarion.com/projects/subversive/download/eclipse/6.0/update-site/' />
+    
+        <child location='https://netceteragroup.github.io/quickrex/updatesite/' />
+ 
+        <!-- JRebel -->
+        <child location='https://update.zeroturnaround.com/update-site/' />
+    
+        <child location='https://cypher256.github.io/eclipse-encoding-plugin/' />
+        <child location='https://dl.bintray.com/ajermakovics/InstaSearch/' />
+        <child location='https://ecd-plugin.github.io/update/' />
+        
+        <!-- MailSnag -->
+        <child location='https://foosbar.github.io/update/' />
+    </children>
 </repository>
