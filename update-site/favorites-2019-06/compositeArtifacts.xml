@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?compositeMetadataRepository version='1.0.0'?>
+<repository name='developers bests update sites for eclipse 2019-06'
+            type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
+            version='1.0.0'>
+    <properties>
+        <property name='p2.timestamp' value='1' />
+    </properties>
+    <children>
+        <child location='../' />
+        <child location='../favorites-general/' />
+
+        <!-- Eclipse et al. -->
+        <child location='https://download.eclipse.org/releases/2019-06/' />
+        <child location='https://download.eclipse.org/eclipse/updates/4.12/' />
+        <child location='https://download.eclipse.org/tools/cdt/releases/9.8/' />
+
+        <!-- Spring -->
+        <child location='https://dist.springsource.com/release/TOOLS/update/e4.12/' />
+        <child location='https://dist.springsource.org/snapshot/GRECLIPSE/e4.12/' />
+    </children>
+</repository>
