@@ -4,7 +4,7 @@
             type='org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository'
             version='1.0.0'>
     <properties>
-        <property name='p2.timestamp' value='3' />
+        <property name='p2.timestamp' value='1562794300000' />
     </properties>
     <children>
         <child location='../' />
@@ -17,6 +17,6 @@
 
         <!-- Spring -->
         <child location='https://dist.springsource.com/release/TOOLS/update/e4.10/' />
-        <child location='https://dist.springsource.org/snapshot/GRECLIPSE/e4.10/' />
+        <child location='https://dist.springsource.org/release/GRECLIPSE/e4.10/' />
     </children>
 </repository>

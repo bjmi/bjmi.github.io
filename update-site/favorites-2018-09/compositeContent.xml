@@ -4,19 +4,19 @@
             type='org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository'
             version='1.0.0'>
     <properties>
-        <property name='p2.timestamp' value='2' />
+        <property name='p2.timestamp' value='1562794300000' />
     </properties>
     <children>
         <child location='../' />
         <child location='../favorites-general/' />
-    
+
         <!-- Eclipse et al. -->
         <child location='https://download.eclipse.org/releases/2018-09/' />
         <child location='https://download.eclipse.org/eclipse/updates/4.9/' />
         <child location='https://download.eclipse.org/tools/cdt/releases/9.5/' />
-    
+
         <!-- Spring -->
         <child location='https://dist.springsource.com/release/TOOLS/update/e4.9/' />
-        <child location='https://dist.springsource.org/snapshot/GRECLIPSE/e4.9/' />
+        <child location='https://dist.springsource.org/release/GRECLIPSE/e4.9/' />
     </children>
 </repository>
